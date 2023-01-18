@@ -1,0 +1,37 @@
+.about{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-top: 200px;
+}
+.about .about_title{
+    color: #1A6692;
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+.about_text{
+    margin-left: 20px;
+}
+.about_descr{
+    color: #626364;
+    line-height: 1.8;
+}
+.about_btn{
+    border: 1px solid #ccc;
+    background-color: transparent;
+    color: #626364;
+    padding: 10px 30px;
+    font-size: 15px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+}
+.about_btn:hover{
+    background-color: #626364;
+    color: white;
+}

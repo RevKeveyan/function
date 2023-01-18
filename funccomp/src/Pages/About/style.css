@@ -1,0 +1,15 @@
+.homepage{
+    width: 100%;
+    text-align: center;
+    
+}
+
+.homepage .homepage_descr{
+    width: 700px;
+    margin-top: 20px;
+    display: inline-block;
+    margin-bottom: 50px;
+    font-size: 20px;
+    color: grey;
+    line-height: 30px;
+}

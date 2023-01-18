@@ -1,0 +1,41 @@
+.lists{
+    display: grid;
+    grid-template-columns: repeat(4,250px);
+    column-gap: 30px;
+    row-gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    
+}
+.active{
+    background-color: #2F956D;
+    color: white ;
+}
+
+.list_title{
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #1A6692;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    text-align: center;
+}
+.list_descr{
+    text-align: left;
+    color: #626364;
+    margin-top: 10px;
+}
+.list_price{
+   text-align: center;
+   color:#2F956D;
+   line-height: 40px;
+   
+}
+
+
+.lists div img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}

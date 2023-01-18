@@ -1,0 +1,11 @@
+.bg2 {
+    height: 300px;
+    width: 80%;
+    margin: 0 auto;
+    background: url('../../../assets/img/bg2.jpg') center center/cover no-repeat ;
+    margin-top: 80px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

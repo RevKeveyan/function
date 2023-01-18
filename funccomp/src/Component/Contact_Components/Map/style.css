@@ -1,0 +1,13 @@
+iframe{
+    width: 1200px;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 50px;
+}
+.map{
+    height: 600px;
+    width: 100%;
+    position: relative;
+}

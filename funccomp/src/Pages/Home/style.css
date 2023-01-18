@@ -1,0 +1,60 @@
+body{
+    font-family: 'Open Sans',Arial,sans-serif;
+}
+.btns {
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    margin: 0 auto;
+    
+}
+.btns button{
+    padding: 15px 40px;
+    align-items: center;
+    justify-content: center;
+    color: #2F956D;
+    background-color: transparent;
+    border: 1px solid #2F956D;
+    margin: 0 15px 50px;
+    cursor: pointer;
+    font-size: 20px;
+
+}
+
+
+.lists{
+    display: grid;
+    grid-template-columns: repeat(4,250px);
+    column-gap: 30px;
+    row-gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    
+}
+.list_title{
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #1A6692;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+.list_descr{
+    text-align: left;
+    color: #626364;
+    margin-top: 10px;
+}
+.list_price{
+   text-align: left;
+   color:#2F956D;
+   line-height: 40px;
+}
+.btns .active{
+    background-color: #2F956D !important;
+    color: white ;
+}
+.lists div img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
